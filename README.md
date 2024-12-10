@@ -27,4 +27,4 @@
 ![Homepage](screenshots/homepage.png)
 
 ### Results Page
-![Results Page](screenshots/results.png)
+![Results Page](screenshots/resultpage.png)
