@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Code Optimizer</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+    
+    
+</head>
+<body>
+    <h1>AI-Powered Code Optimizer</h1>
+    <form method="POST" action="/">
+        <textarea name="code_snippet" rows="10" cols="50" placeholder="Paste your code here..."></textarea>
+        <br>
+        <button type="submit">Analyze Code</button>
+    </form>
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+</body>
+</html>
